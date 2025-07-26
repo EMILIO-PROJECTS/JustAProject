@@ -1,0 +1,17 @@
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+
+int main() {
+
+cout << std::setprecision(20);
+
+    float number5 = 1.1234567890102030405f;   // Precision 7
+   double number_(1.1234567890102030405);    // Precision 15
+
+   cout << number5 << endl;
+   cout << number_ << endl;
+
+}

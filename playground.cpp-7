@@ -1,0 +1,15 @@
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+
+int main() {
+
+   long int x = 65536;
+
+   
+    cout << sizeof(x) << endl;
+   cout << "x: " << x << endl;
+
+}

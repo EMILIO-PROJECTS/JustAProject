@@ -1,0 +1,15 @@
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+
+int main() {
+
+int age;
+
+    cout << "age: " << age << endl;   // will have garbage value
+
+    cout << "----------------------------------" << endl << endl;
+
+}

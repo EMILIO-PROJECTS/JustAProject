@@ -1,0 +1,13 @@
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+
+int main() {
+
+    auto number = 5.2; // integer
+
+cout << sizeof(number) << endl;
+
+}

@@ -1,0 +1,31 @@
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+
+int main() {
+    
+    char c1('H'), c2('e');
+    char c3('l');
+    char c4('l');
+    char c5('o');
+
+    cout << c1;
+    cout << c2;
+    cout << c3;
+    cout << c4;
+    cout << c5;
+    cout << endl;
+
+
+    char v1 = 87, v2 = 111, v3 = 114, v4 = 108, v5 = 100, v6 = 33;
+
+    cout << endl << v1 << v2 << v3 << v4 << v5 << v6 << endl;
+
+    // One byte in memory: 2^8 = 256 - different values (0 ~ 255)
+    char value = 89;    // ASCII character code for 'Y'
+
+    cout << "sizeof(char): "  << sizeof(char) << endl;
+    cout << "sizeof(value): " << sizeof(value) << endl;
+}

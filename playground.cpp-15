@@ -1,0 +1,15 @@
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+
+int main() {
+
+    int var1;   // declare variable var1
+    var1 = 12;  // assign 12 to variable var1
+
+    bool state = false;    // declare and initialize
+    auto a(true);          // declare and initialize
+    a = false;   // reassign
+}

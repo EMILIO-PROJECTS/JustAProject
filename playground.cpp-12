@@ -1,0 +1,27 @@
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+
+int main() {
+
+bool light = false;
+
+    cout << std::boolalpha;    // forces the output format to true/false
+
+cout << light << endl;
+
+if (light == true) {
+        cout << "Light is: " << light << endl;
+    } else  {     
+        cout << "Light: " << light << endl;
+    }
+
+if (light) {
+        cout << "sizeof bool: "  << sizeof(bool)  << " byte" << endl;
+        cout << "sizeof light: " << sizeof(light) << " byte" << endl;
+    }
+
+    
+}

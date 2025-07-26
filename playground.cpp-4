@@ -1,0 +1,13 @@
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+
+int main() {
+
+int x = 1234566;
+
+cout << sizeof(int) << " bytes" << endl;
+
+}

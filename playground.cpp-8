@@ -1,0 +1,16 @@
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+
+int main() {
+
+    char symbol_1 = '~';
+    char symbol_2 = '!';
+    char symbol_3 = 'a';
+
+
+    cout << sizeof(char) << endl;
+
+}
